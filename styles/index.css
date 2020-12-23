@@ -1,0 +1,517 @@
+.header .container .content {
+    padding: 32px 18px 32px 20px;
+    height: 56px;
+}
+.nav {
+    float: right;
+    margin-top: 25px;
+}
+.nav li {
+    float: left;
+    line-height: 20px;
+    font-size: 18px;
+    padding-left: 34px;
+}
+.nav a:hover, .nav li.active a {
+    color: #01b7ee;
+}
+.nav li + li {
+    border-left: 1px solid #333;
+    margin-left: 34px;
+}
+
+.section-1 {
+    height: 528px;
+    position: relative;
+}
+.section-1:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 55px;
+    background: #31333e;
+    z-index: 9;
+}
+.section-1 .container {
+    position: relative;
+    height: 528px;
+}
+.section-1 .iphone {
+    position: absolute;
+    z-index: 10;
+    bottom: 5px;
+    left: 5px;
+}
+.section-1 .download {
+    position: absolute;
+    width: 221px;
+    height: 64px;
+    background: url("../images/down_btn.png") no-repeat 0 0;
+    z-index: 10;
+    right: 75px;
+    bottom: 110px;
+}
+.section-1 .download:hover {
+    background-position: -221px 0;
+}
+.section-1 .desc {
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    bottom: 350px;
+    right: 40px;
+}
+.section-1 .desc .fz50 {
+    margin-right: 20px;
+    position: relative;
+}
+.section-1 .desc .fz50:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: -13px;
+    bottom: 20px;
+    background: #fff;
+}
+.section-1 .desc > p {
+    text-align: right;
+    line-height: 40px;
+}
+.section-2 {
+    padding: 70px 0 105px 0;
+    height: 317px;
+}
+.section-2 li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+.section-2 li .img {
+    margin: 25px 0;
+}
+.section-2 li .desc {
+    font-size: 16px;
+    width: 260px;
+    margin: 0 auto;
+    line-height: 28px;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    color: #999;
+}
+.section-2 li .center {
+    font-size: 16px;
+    color: #999;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-2 li .btn {
+    font-size: 16px;
+    color: #00aeff;
+}
+.section-2 li .btn:hover {
+    color: #01b7ee;
+}
+.section-2 li .tips {
+    position: absolute;
+    width: 345px;
+    height: 150px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    bottom: -225px;
+    left: 50%;
+    margin-left: -205px;
+    display: none;
+}
+.section-2 li.hover .tips{
+    display: block;
+}
+.section-2 li .tips-arrow {
+    top: -20px;
+    margin-left: -10px;
+    left: 50%;
+    border-left-width: 0;
+    border-color: transparent;
+    border-bottom-color: rgba(217, 217, 217, 0.4);
+    border-width: 10px;
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;    
+    border-style: solid;
+}
+
+.section-2 li .tips-arrow:after {
+    content: " ";
+    left: -8px;
+    bottom: -10px;
+    border-left-width: 0;
+    border-color: transparent;
+    border-bottom-color: #fff;
+    border-width: 8px;
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    
+    border-style: solid;
+}
+.section-2 li .tips p {
+    text-align:justify;
+    text-justify:inter-ideograph;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999;
+}
+
+.section-3 {
+    background: #f0f0f0;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.section-3 h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #666;
+    margin-bottom: 70px;
+}
+.section-3 .container li {
+    float: left;
+    height: 158px;
+    width: 300px;
+    background: #fff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.section-3 .container li:hover {
+    box-shadow: 0 0 10px #01b7ee;
+}
+.section-3 .container li .left {
+    float: left;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 49px;
+}
+.section-3 .container li .left img {
+    width: 60px;
+    height: 60px;
+    
+}
+.section-3 .container li .right {
+    float: left;
+    width: 200px;
+    margin-left: 20px;
+}
+.section-3 .container li .right h6{
+    font-size: 28px;
+    line-height: 148px;
+}
+.section-3 .container li .right p{
+    display: none;
+}
+.section-3 .container li:hover .right p{
+    display: block;
+    line-height: 20px;
+    color: #999;
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
+.section-3 .container li:hover .left{
+    width: 50px;
+    margin-top: 54px;
+}
+.section-3 .container li:hover .left img{
+    width: 50px;
+    height: 50px;
+}
+.section-3 .container li:hover .right {
+    width: 190px;
+}
+.section-3 .container li:hover .right h6{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.section-4 {
+    height: 620px;
+    position: relative;
+}
+.section-4:after {
+    content: '';
+    width: 100%;
+    height: 600px;
+    background: #333333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+.section-4 .container {
+    position: relative;
+    z-index: 10;
+    padding-top: 80px;
+}
+.section-4 .container .play-content {
+    position: absolute;
+    width: 696px;
+    height: 440px;
+    top: 115px;
+    left: 50%;
+    margin-left: -368px;
+}
+.section-4 .container img {
+    width: 940px;
+    height: 540px;
+}
+.section-4 .hs-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.section-5 {
+    padding: 110px 0 0 0;
+}
+.section-5 h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #666;
+    line-height: 40px;
+}
+.section-5 .slideBox {
+    position: relative;
+    width: 980px;
+    height: 560px;
+    padding: 20px 0;
+    margin-bottom: 150px;
+    margin-top: 60px;
+}
+.section-5 .hd {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    margin-left: -60px;
+}
+.section-5 .hd li {
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #999;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.section-5 .bd {
+    position: relative;
+}
+.section-5 .bd:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    border-bottom: 2px dashed #f0f0f0;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+.section-5 .hd li.on, .section-5 .hd li:hover {
+    background: #01b7ee;
+    border-color: #01b7ee;
+}
+.section-5 .ct-btn {
+    position: absolute;
+    width: 60px;
+    height: 600px;
+    top: 0;    
+    cursor: pointer;
+}
+.section-5 .prev {
+    background: url("../images/left_arrow.png") no-repeat 15px 275px;
+    left: -100px;
+}
+.section-5 .next {
+    background: url("../images/right_arrow.png") no-repeat 15px 275px;
+    right: -100px;
+}
+.section-5 .prev:hover {
+    background: url("../images/left_arrow_w.png") no-repeat 15px 275px #e6e6e6;
+}
+.section-5 .next:hover {
+    background: url("../images/right_arrow_w.png") no-repeat 15px 275px #e6e6e6;
+}
+
+.section-6 {
+    width: 100%;
+    height: 20px;
+    background: #f0f0f0;
+}
+
+.section-7 h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #666;
+    line-height: 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.section-7 .slideMsg {
+    width: 940px;
+    height: 500px;
+    position: relative;
+    margin: 0 20px;
+    margin-bottom: 80px;
+}
+.section-7 .hd {
+    width: 100%;
+    height: 100%;
+}
+.section-7 .hd li {
+    height: 60px;
+    width: 310px;
+    background: #f0f0f0;
+    font-size: 16px;
+    color: #666;
+    padding-top: 16px;
+    cursor: pointer;
+}
+.section-7 .hd li.on {
+    color: #fff;
+    background: #01b7ee;
+}
+.section-7 .hd li span {
+    float: left;
+    height: 60px;
+    margin-left: 15px;
+}
+.section-7 .hd li p {
+    float: left;
+    width: 230px;
+    text-align: left;
+}
+.section-7 .hd ul {position: relative;}
+.section-7 .li-1 { position: absolute; left: 0; top: 50px;}
+.section-7 .li-2 { position: absolute; left: 0; top: 158px;}
+.section-7 .li-3 { position: absolute; left: 0; top: 266px;}
+.section-7 .li-4 { position: absolute; left: 0; top: 374px;}
+.section-7 .li-5 { position: absolute; right: 0; top: 50px;}
+.section-7 .li-6 { position: absolute; right: 0; top: 158px;}
+.section-7 .li-7 { position: absolute; right: 0; top: 266px;}
+.section-7 .li-8 { position: absolute; right: 0; top: 374px;}
+
+.section-7 .bd {
+    position: absolute;
+    width: 230px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px #01b7ee;
+    top: 0;
+    left: 50%;
+    margin-left: -130px;
+    padding: 0 15px;
+}
+.section-7 .bd h5 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.section-7 .bd p {
+    text-align:justify;
+    text-justify:inter-ideograph;
+    line-height: 30px;
+    color: #666;
+}
+
+.section-8 {
+    text-align: center;
+    height: 60px;
+    padding: 40px 0;
+    background: #f0f0f0;
+}
+.fixed {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+}
+.fixed > div {
+    cursor: pointer;
+}
+.fixed .p {
+    width: 36px;
+    height: 40px;
+    background: #01b7ee;
+    color: #fff;
+    font-size: 16px;
+    padding:5px 7px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.fixed .ask .hover {
+    position: absolute;
+    width: 280px;
+    height: 178px;
+    background: url("../images/ask.png") no-repeat;
+    right: 56px;
+    top: -65px;
+    display: none;
+}
+.fixed .download .hover {
+    position: absolute;
+    width: 140px;
+    height: 128px;
+    background: url("../images/down_code.png") no-repeat;
+    right: 56px;
+    top: -40px;
+    display: none;
+}
+.fixed .p:hover .hover{
+    display: block;
+}
+.fixed .top {
+    width: 48px;
+    border: 1px solid #01b7ee;
+    color: #999;
+    background: #fff;
+    visibility: hidden;
+}
+.fixed .top .arrow {
+    border-left-width: 0;
+    border-color: transparent;
+    border-bottom-color: #999;
+    border-width: 10px;
+    margin-left: 14px;
+    margin-top: -5px;
+}
+
+.footer {
+    background: #1b1b1b;
+    color: #fff;
+    padding: 30px 0 50px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.footer .left {
+    padding-top: 15px;
+}
+.footer .left p{
+    line-height: 50px;
+}
+.footer .right {
+    text-align: center;
+    padding-left: 40px;
+    border-left: 2px solid #4f4f4f;
+}
+.footer .right p {
+    margin-top: 10px;
+}
