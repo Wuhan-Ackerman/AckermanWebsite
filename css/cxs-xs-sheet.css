@@ -1,0 +1,84 @@
+
+@media (max-width: 767px) {
+  .x .c1-q {
+    padding-top: 32px
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-r {
+    padding-bottom: 32px
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-1k {
+    width: 100%
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-1l {
+    display: flex
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-1m {
+    justify-content: center
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-3s {
+    height: calc((100vw - 48px)/1.7019108280254778)
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-4y {
+    height: calc((100vw - 48px)/1.33)
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-54> :nth-child(n) {
+    margin-bottom: 16px
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-55> :last-child {
+    margin-bottom: 0 !important
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-61>p>ul {
+    margin-left: 0px
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-62>p>ul {
+    margin-right: 0px
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-63>p>ul {
+    padding-left: 24px
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-7d [data-ux="GridCell"]:last-child {
+    order: -1
+  }
+}
+
+@media (max-width: 767px) {
+  .x .c1-89 {
+    height: calc((100vw - 48px)/2)
+  }
+}
