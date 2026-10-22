@@ -1,12 +1,14 @@
- // 初始化地图
- var map = new AMap.Map('AMapContainer', {
-    zoom: 16,
-    center: [114.308702,30.60838] // 将中心点设置为湖北武汉的经纬度
-  });
+const coordinates = [114.30,30.60];
 
-  // 添加一个标记在湖北武汉
-  var marker = new AMap.Marker({
-    position: [114.308702,30.60838], // 武汉的经纬度
-    title:'武汉市江岸区中山大道1505号企业天地1号15层',
-    map: map
-  });
+// 初始化地图
+const map = new AMap.Map("AMapContainer", {
+  zoom: 16,
+  center: coordinates,
+});
+
+// 添加一个标记
+const marker = new AMap.Marker({
+  position: coordinates,
+  title: "武汉市江岸区四唯街道京汉大道1268号铂仕汇国际广场16楼",
+  map,
+});
